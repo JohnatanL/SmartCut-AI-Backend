@@ -188,3 +188,7 @@ Para realizar pruebas e interactuar con la base de datos, accede a:
    * Elimínalo físicamente con `DELETE /services/1`.
 
 6. **Probar CRUD de Productos:** Realiza la misma operación sobre el módulo `/products/` creando ceras o geles.
+
+## Repositorios relacionados
+
+- **Frontend:** [SmartCut AI Frontend](https://github.com/JohnatanL/SmartCut-AI-Frontend)
