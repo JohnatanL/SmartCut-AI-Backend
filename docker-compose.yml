@@ -1,0 +1,16 @@
+# STREAMING_CHUNK:Configurando servicios de Docker Compose...
+version: '3.8'
+
+services:
+  api:
+    image: smartcut:v1
+    build: .
+    container_name: smartcut_api
+    ports:
+      - "8000:8000"
+    # Este volumen mapea la carpeta 'data' local con la del contenedor.
+    # Gracias a esto, si se apaga o reconstruye el contenedor de Docker,
+    # el archivo 'smartcut.db' (SQLite) NO se pierde. Persiste en el host.
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
