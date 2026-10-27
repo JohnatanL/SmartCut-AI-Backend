@@ -189,6 +189,7 @@ Para realizar pruebas e interactuar con la base de datos, accede a:
 
 6. **Probar CRUD de Productos:** Realiza la misma operación sobre el módulo `/products/` creando ceras o geles.
 
-## Repositorios relacionados
+## Documentación del proyecto
 
-- **Frontend:** [SmartCut AI Frontend](https://github.com/JohnatanL/SmartCut-AI-Frontend)
+- [Manual técnico y de usuario de SmartCut AI](https://github.com/JohnatanL/SmartCut-AI-Frontend/blob/main/docs/Manual_Tecnico_Usuario_SmartCut_AI.pdf)
+- [Repositorio del frontend](https://github.com/JohnatanL/SmartCut-AI-Frontend)
